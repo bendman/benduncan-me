@@ -1,0 +1,431 @@
+// TODO: update to use BEM
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #FFF;
+  color: #222;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  line-height: 1.4;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  hyphens: auto;
+  word-break: break-all;
+  word-break: break-word;
+}
+.wrap > header,
+.wrap > section {
+  max-width: 60em;
+  margin: 0 auto;
+}
+p {
+  text-align: justify;
+}
+a {
+  color: inherit;
+  border-bottom: 1px dotted;
+  text-decoration: none;
+}
+
+.icon {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-url:before {
+  content: "\e600";
+}
+.icon-location:before {
+  content: "\e601";
+}
+.icon-email:before {
+  content: "\e602";
+}
+.icon-git:before {
+  content: "\e603";
+}
+.icon-tel:before {
+  content: "\e604";
+}
+
+
+/**
+ * Heading
+ */
+.head {
+  padding: 4em 1em 0;
+  background: #fff;
+}
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  padding: 0;
+  margin: 0 0 2em;
+  line-height: 1;
+  font-size: 5em;
+  font-weight: 100;
+  color: #5DA6B9;
+  float: left;
+}
+address {
+  padding: 0;
+  line-height: 1.8;
+  font-style: normal;
+  float: right;
+  color: #5DA6B9;
+  text-align: right;
+}
+address > div,
+address > span {
+  font-size: 1.5em;
+  display: block;
+}
+address i {
+  float: right;
+  font-size: 1.2em;
+  margin: 0.2em 0 0 0.5em;
+  width: 1.5em;
+  text-align: left;
+}
+.url {
+  display: none;
+}
+h2 {
+  margin: 0 0 .5em;
+  font-size: 5em;
+  clear: both;
+  color: #222;
+  text-align: center;
+}
+
+/**
+ * Skills
+ */
+.skills {
+  clear: both;
+  overflow: hidden;
+  padding: 3em 1em;
+  border-top: 8px solid #5DA6B9;
+  border-bottom: 8px solid #5DA6B9;
+  background: #D0EFF7;
+}
+.skills h3 {
+  display: none;
+}
+.skills p {
+  font-size: 2em;
+  margin: 0 0 2em;
+}
+.skills-tree div {
+  float: left;
+  position: relative;
+  width: 33%;
+  text-align: center;
+}
+.skills-tree div: nth-child(even) {
+  width: 34%;
+}
+.skills h4 {
+  font-size: 1.5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #5DA6B9;
+}
+dl {
+  line-height: 1.6;
+}
+dt {
+  letter-spacing: .1em;
+  color: #5DA6B9;
+  font-size: 1.4em;
+  margin-top: 1em;
+}
+dd + dt {
+  margin-top: 2em;
+}
+dd {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/**
+ * Experience
+ */
+.experience {
+  clear: both;
+  padding: 0 1em;
+}
+h3 {
+  font-size: 4em;
+  margin-bottom: 0;
+  text-align: center;
+}
+.project-group {
+  padding: 1.6em 0;
+  border-bottom: 2px solid #5DA6B9;
+}
+.project-group:last-child {
+  border-bottom: none;
+}
+.project-group header {
+  overflow: hidden;
+}
+article {
+  padding: 2em 0;
+}
+.experience h4,
+.period {
+  font-size: 2.4em;
+  margin: 0;
+}
+.experience h4 {
+  float: left;
+}
+.period {
+  float: right;
+  color: #CCC;
+}
+.job-title {
+  float: left;
+  clear: both;
+  font-size: 1.8em;
+}
+h5 {
+  margin: 0;
+  font-size: 1.8em;
+}
+p {
+  color: #444;
+  font-size: 1.6em;
+  margin: 0;
+}
+/**
+ * Target: Print
+ */
+@media print {
+  .url {
+    display: block;
+  }
+  * {
+    background: transparent !important;
+  }
+  a {
+    border: none;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 2rem;
+  }
+  h2 {
+    margin-top: 1em;
+  }
+  p,
+  article,
+  .project {
+    orphans: 3;
+    widows: 3;
+    page-break-inside: avoid;
+  }
+  p {
+    text-align: left;
+  }
+  header,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  .period,
+  .job-title {
+    page-break-after: avoid;
+  }
+  address {
+    font-size: 70%;
+    float: none;
+  }
+  @page {
+    margin: 1cm;
+  }
+  .wrap > header,
+  .wrap > section {
+    max-width: none;
+  }
+  .head {
+    padding: 0;
+  }
+  .fn {
+    font-size: 3em;
+    margin: .7em 0 1.5em;
+  }
+  .title {
+    text-align: center;
+    font-size: 4em;
+  }
+  .skills {
+    border: none;
+    padding: 3em 0 0;
+    page-break-after: always;
+  }
+  .skills h3 {
+    display: block;
+  }
+  .skills p {
+    font-size: 1.6em;
+    margin: 0 5em 1em;
+  }
+  .experience {
+    font-size: 0.8em;
+  }
+  .experience h5 a[href]:after,
+  p a[href]:after {
+    margin-left: 0.2em;
+    font-size: 0.8em;
+    color: #ccc;
+    content: '(' attr(href) ')';
+  }
+  article {
+    padding-bottom: 0;
+  }
+}
+
+/**
+ * Target: Phones / Small Width
+ */
+@media only screen and (max-width:500px), only screen and (max-device-width:500px) {
+
+  /* Head */
+  .wrap > header,
+  .wrap > section {
+    max-width: none;
+    margin: 0 auto;
+  }
+  .head {
+    text-align: center;
+    padding: 1em;
+  }
+  h1,
+  address {
+    float: none;
+    text-align: center;
+    margin: 0 0 0.5em;
+  }
+  h2 {
+    margin: 2em 0 1em;
+  }
+  address i {
+    float: none;
+    font-size: inherit;
+    width: auto;
+    margin: 0 0.3em;
+  }
+  .wrap {
+    padding: 2rem 2rem 4rem;
+  }
+  p {
+    text-align: left;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+
+  /* Introduction */
+  .skills p {
+    text-align: left;
+    padding: 0 .5em;
+    margin-bottom: 1em;
+  }
+  .skills-tree div,
+  .skills-tree div:nth-child(even) {
+    float: none;
+    clear: both;
+    width: auto;
+    font-size: 1.5em;
+  }
+  .skills-tree div + div {
+    margin-top: 6em;
+  }
+  .skills h2 {
+    padding: 0;
+    margin: 1em 0 0;
+    background-color: #5DA6B9;
+    color: #fff;
+    border: none;
+  }
+  dt {
+    font-weight: bold;
+    color: #222;
+  }
+  dd {
+    color: #5DA6B9;
+  }
+  dt,
+  dl,
+  dd + dt {
+    margin: 0;
+  }
+  /* Experience */
+  .experience h3 {
+    font-size: 8em;
+    margin: -2rem -2rem 1em;
+    padding: 2em 0;
+    text-align: center;
+    background-color: #5DA6B9;
+    color: #FFF;
+  }
+  .experience header > * {
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+  }
+}
+
+/**
+ * Target: Wide Screens
+ */
+@media only screen and (min-width:1000px) {
+  body {
+    padding-left: 35%;
+  }
+  .wrap > header,
+  .wrap > section {
+    max-width: 60em;
+    margin: 0 0 0 4em;
+  }
+  .head {
+    text-align: right;
+    position: fixed;
+    width: 35%;
+    height: 100%;
+    border-right: 8px solid #5DA6B9;
+    top: 0;
+    left: 0;
+  }
+  .head header {
+    padding-right: 4em;
+  }
+  h1,
+  address {
+    float: none;
+  }
+  h2 {
+    margin-top: .7em;
+    font-weight: normal;
+    font-size: 6em;
+    color: #ccc;
+    text-align: right;
+  }
+  .skills {
+    border-top: none;
+    clear:none;
+  }
+}
