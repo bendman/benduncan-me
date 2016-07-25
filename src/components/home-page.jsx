@@ -1,5 +1,6 @@
 import React from 'react';
 import Style from './home-page.scss';
+import GithubRibbon from './github-ribbon';
 import Icon from './icon';
 import data from './data';
 import classNames from '../shared/classnames';
@@ -29,6 +30,7 @@ const HomePage = () => (
         </address>
         <h2 className="title">Software Engineer</h2>
       </header>
+      <GithubRibbon repo="bendman/benduncan-me" />
     </div>
     <div className={classNames(Style.skills, Style.wrap)} id="skills">
       <section>
