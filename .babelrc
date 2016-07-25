@@ -7,7 +7,7 @@
           "css-modules-transform",
           {
             "extensions": [".css", ".scss"],
-            "generateScopedName": "[path][name]---[local]---[hash:base64:5]",
+            "generateScopedName": "[name]---[local]---[hash:base64:5]",
           }
         ]
       ]

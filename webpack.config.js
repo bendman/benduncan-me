@@ -6,7 +6,9 @@ var webpack = require('webpack');
 var exclusions = path.join(__dirname, 'node_modules');
 var PROD = process.env.NODE_ENV === 'production';
 
-console.log('PRODUCTION', PROD);
+var staticStyles = /\.static\.s?css$/;
+var moduleStyles = /\.s?css$/;
+
 
 var config = {
   devtool: 'eval-source-map',
@@ -37,9 +39,16 @@ var config = {
         loaders: ['babel']
       },
       {
-        test: /\.s?css$/,
+        test: staticStyles,
         loader: ExtractTextPlugin.extract(
-          'style', 'css?sourceMap&modules&localIdentName=[path][name]---[local]---[hash:base64:5]!postcss' // eslint-disable-line
+          'style', 'css?sourceMap!postcss'
+        )
+      },
+      {
+        test: moduleStyles,
+        exclude: staticStyles,
+        loader: ExtractTextPlugin.extract(
+          'style', 'css?sourceMap&modules&localIdentName=[name]---[local]---[hash:base64:5]!postcss' // eslint-disable-line
         )
       },
       {

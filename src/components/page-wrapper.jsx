@@ -1,5 +1,4 @@
 import React from 'react';
-// import Style from './page-wrapper.scss';
 
 
 const PageWrapper = (props) => (
