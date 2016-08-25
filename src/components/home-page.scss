@@ -10,9 +10,6 @@ body {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
-  hyphens: auto;
-  word-break: break-all;
-  word-break: break-word;
 }
 .wrap > header,
 .wrap > section {
@@ -162,6 +159,9 @@ dd {
 .experience {
   clear: both;
   padding: 0 1em;
+  word-break: normal;
+  word-break: break-word; // webkit fix
+  hyphens: auto;
 }
 h3 {
   font-size: 4em;
