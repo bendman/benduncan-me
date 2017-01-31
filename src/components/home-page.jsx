@@ -72,6 +72,7 @@ const HomePage = () => (
 
               <dt>Libraries</dt>
               <dd>React</dd>
+              <dd>React Native</dd>
               <dd>Backbone</dd>
               <dd>Underscore</dd>
               <dd>Knockout</dd>

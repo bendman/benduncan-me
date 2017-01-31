@@ -6,6 +6,14 @@ export default {
       description: 'One great thing about programming is the continuous learning potential. I\'m often playing with new technologies, whether it be poking around <a href="http://exercism.io/languages/elm">Elm tutorials</a>, making <a href="https://hyperdev.com/#!/project/gray-toe">Flexbox playgrounds</a>, or experimenting with <a href="http://codepen.io/bendman/pen/YWVpar">new async control methods</a>. As a linguist, I also frequent language learning groups and am building an educational tool for studying languages, run as isomorphically rendered React with on-demand asynchronous routing and <a href="http://yelouafi.github.io/redux-saga/">Redux sagas</a> for state management.',
     }],
   }, {
+    experience: 'Independent Contractor',
+    period: 'Aug 2016 - Present',
+    title: 'UI Engineer',
+    projects: [{
+      summary: 'Client Project',
+      description: 'I am working as an independent contractor to build a mobile application using React Native, working with a designer and a backend developer to build the 15+ screen application from the ground up.',
+    }],
+  }, {
     experience: 'Idealist.org',
     period: 'Aug 2015 - Jul 2016',
     title: 'Software Engineer (Team Lead)',
