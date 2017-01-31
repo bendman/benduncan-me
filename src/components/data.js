@@ -82,13 +82,13 @@ export default {
       summary: 'Custom Content Management System',
       description: 'I led front end development and assisted with back end development of a custom, multi-language (12+) and multi-site CMS. My responsibilities included initial framework development (PHP), helping define functionality requirements, leading front end development, and screening candidate web developers.',
     }],
-  }, {
-    experience: 'LTC Global Solutions',
-    period: 'Feb 2006 - Dec 2007',
-    title: 'Web Developer',
-    projects: [{
-      summary: 'Internal Project Management System',
-      description: 'I led the development of an internal project management, pay tracking, and tech support system to manage help desk tickets and internal projects. My tasks included determining system requirements based on future user input, proposing architectures to the company CIO, planning and building the Oracle database schema, developing the back end (PHP) for the system, and leading front end development of the system.',
-    }],
+  // }, {
+  //   experience: 'LTC Global Solutions',
+  //   period: 'Feb 2006 - Dec 2007',
+  //   title: 'Web Developer',
+  //   projects: [{
+  //     summary: 'Internal Project Management System',
+  //     description: 'I led the development of an internal project management, pay tracking, and tech support system to manage help desk tickets and internal projects. My tasks included determining system requirements based on future user input, proposing architectures to the company CIO, planning and building the Oracle database schema, developing the back end (PHP) for the system, and leading front end development of the system.',
+  //   }],
   }],
 };

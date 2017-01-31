@@ -115,3 +115,9 @@
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
+@media print {
+  .github-fork-ribbon {
+    display: none;
+  }
+}
