@@ -36,7 +36,7 @@ const HomePage = () => (
       <section>
 
         <p>
-          I have ten years of professional experience in web development:
+          I have ten years of professional experience in web and mobile development:
           building user interfaces, front end architecture, and working in teams
           to deliver enterprise and consumer products in fast iterations.
         </p>
