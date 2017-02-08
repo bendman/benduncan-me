@@ -23,7 +23,7 @@ const HomePage = () => (
           </span>
           <span className="email">
             <Icon type="email" />
-            <a href="mailto:duncan.ben@gmail.com?subject=Hello%20Ben!">duncan.ben@gmail.com</a>
+            <a href="mailto:ben@cascadiaconcepts.com?subject=Hello%20Ben!">ben@cascadiaconcepts.com</a>
           </span>
           <span className={Style.url}><Icon type="url" /><a href="http://benduncan.me">http://benduncan.me</a></span>
           <span className="git"><Icon type="git" /><a href="https://github.com/bendman">https://github.com/bendman</a></span>
