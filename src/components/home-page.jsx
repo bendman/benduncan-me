@@ -46,6 +46,8 @@ const HomePage = () => (
           <div>
             <h4>Programming</h4>
             <dl>
+              <dd>Unity Engine</dd>
+              <dd>C#</dd>
               <dd>Javascript (ES6)</dd>
               <dd>HTML 5</dd>
               <dd>CSS 3</dd>
@@ -84,6 +86,9 @@ const HomePage = () => (
             <h4>Other</h4>
             <dl>
               <dt>Design</dt>
+              <dd>Blender</dd>
+              <dd>Fusion</dd>
+              <dd>Inventor</dd>
               <dd>Illustrator</dd>
               <dd>Photoshop</dd>
               <dd>Lightroom</dd>
