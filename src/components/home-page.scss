@@ -115,8 +115,11 @@ h2 {
   border-bottom: 8px solid #5DA6B9;
   background: #D0EFF7;
 }
-.skills h3 {
+.skills h3, .skills h4 {
   display: none;
+  font-size: 1.5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #5DA6B9;
 }
 .skills p {
   font-size: 2em;
@@ -125,16 +128,8 @@ h2 {
 .skills-tree div {
   float: left;
   position: relative;
-  width: 33%;
+  width: 50%;
   text-align: center;
-}
-.skills-tree div: nth-child(even) {
-  width: 34%;
-}
-.skills h4 {
-  font-size: 1.5em;
-  padding-bottom: .5em;
-  border-bottom: 1px solid #5DA6B9;
 }
 dl {
   line-height: 1.6;

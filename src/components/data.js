@@ -3,15 +3,21 @@ export default {
   experiences: [{
     experience: 'Side Projects',
     projects: [{
-      description: 'One great thing about programming is the continuous learning potential. I\'m often playing with new technologies, whether it be poking around <a href="http://exercism.io/languages/elm">Elm tutorials</a>, making <a href="https://hyperdev.com/#!/project/gray-toe">Flexbox playgrounds</a>, or experimenting with <a href="http://codepen.io/bendman/pen/YWVpar">new async control methods</a>. As a linguist, I also frequent language learning groups and am building an educational tool for studying languages, run as isomorphically rendered React with on-demand asynchronous routing and <a href="http://yelouafi.github.io/redux-saga/">Redux sagas</a> for state management.',
+      description: 'I\'m often playing with new technologies, whether it be poking around <a href="http://exercism.io/languages/elm">Elm tutorials</a>, making <a href="https://hyperdev.com/#!/project/gray-toe">Flexbox playgrounds</a>, or experimenting with <a href="http://codepen.io/bendman/pen/YWVpar">new async control methods</a>. I\'m also particularly interested in <a href="https://en.wikipedia.org/wiki/Scientific_modelling">scientific modelling</a> of <a href="https://en.wikipedia.org/wiki/Complex_system">complex systems</a>, whether that means <a href="http://modelingcommons.org/browse/one_model/5344#model_tabs_browse_info">building an Agent Based Model</a> or <a href="/Predator-Prey.html">a mathematical exploration of dynamical systems</a>',
     }],
   }, {
     experience: 'Independent Contractor',
     period: 'Aug 2016 - Present',
     title: 'UI Engineer',
     projects: [{
-      summary: 'Client Project',
-      description: 'I am working as an independent contractor to build a mobile application using React Native, working with a designer and a backend developer to build the 15+ screen application from the ground up.',
+      summary: 'Detailed Prototyping',
+      description: 'I joined an established UI team, acting as a Javascript developer to help rapidly prototype highly interactive and detail-oriented designs for Nike.',
+    }, {
+      summary: 'Mobile Startup',
+      description: 'I was hired as the sole UI developer for a startup building a mobile application using React Native, where I worked with a designer and a backend developer to build the application from the ground up.',
+    }, {
+      summary: 'And more...',
+      description: 'Contracting comes with a continuous stream of interesting projects, from small to large, so I\'m always working on something new.',
     }],
   }, {
     experience: 'Idealist.org',

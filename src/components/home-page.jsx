@@ -36,7 +36,7 @@ const HomePage = () => (
       <section>
 
         <p>
-          I have ten years of professional experience in web and mobile development:
+          I have ten years of professional experience in frontend development:
           building user interfaces, front end architecture, and working in teams
           to deliver enterprise and consumer products in fast iterations.
         </p>
@@ -44,59 +44,41 @@ const HomePage = () => (
         <h3>Skills</h3>
         <section className={Style['skills-tree']}>
           <div>
-            <h4>Programming</h4>
             <dl>
-              <dd>Unity Engine</dd>
-              <dd>C#</dd>
-              <dd>Javascript (ES6)</dd>
-              <dd>HTML 5</dd>
-              <dd>CSS 3</dd>
-              <dd>LESS</dd>
-              <dd>SASS</dd>
-
-              <dt>Backend</dt>
-              <dd>Node</dd>
+              <dd>Javascript</dd>
+              <dd>CSS / LESS / SASS</dd>
+              <dd>NetLogo</dd>
               <dd>Python</dd>
-              <dd>PHP 5</dd>
-              <dd>SQL</dd>
               <dd>Nginx</dd>
-            </dl>
-          </div>
-          <div>
-            <h4>Tools</h4>
-            <dl>
-              <dd>NPM</dd>
-              <dd>Mocha</dd>
-              <dd>Webpack</dd>
-              <dd>Grunt</dd>
-              <dd>Gulp</dd>
-              <dd>Docker</dd>
+              <dd>PHP</dd>
+              <dd>SQL</dd>
+              <dd>C#</dd>
 
               <dt>Libraries</dt>
-              <dd>React</dd>
-              <dd>React Native</dd>
-              <dd>Backbone</dd>
+              <dd>React / React Native</dd>
+              <dd>Unity Engine</dd>
               <dd>Underscore</dd>
+              <dd>Backbone</dd>
               <dd>Knockout</dd>
               <dd>jQuery</dd>
               <dd>D3</dd>
             </dl>
           </div>
           <div>
-            <h4>Other</h4>
             <dl>
+              <dd>NPM</dd>
+              <dd>Webpack</dd>
+              <dd>Git / SVN</dd>
+              <dd>Docker</dd>
+              <dd>Mocha</dd>
+
               <dt>Design</dt>
-              <dd>Blender</dd>
-              <dd>Fusion</dd>
-              <dd>Inventor</dd>
-              <dd>Illustrator</dd>
               <dd>Photoshop</dd>
               <dd>Lightroom</dd>
-
-              <dt>Version Control</dt>
-              <dd>Git</dd>
-              <dd>Mercurial</dd>
-              <dd>SVN</dd>
+              <dd>Illustrator</dd>
+              <dd>Inventor</dd>
+              <dd>Blender</dd>
+              <dd>Fusion</dd>
             </dl>
           </div>
         </section>

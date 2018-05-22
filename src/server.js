@@ -14,6 +14,8 @@ import appRoutes from './routes';
 
 app.use(morgan('common'));
 
+console.log('serving static');
+app.use(express.static(path.resolve(__dirname, '../static')));
 app.use(express.static(path.resolve(__dirname, '../srv')));
 
 app.get('*', (req, res) => {
