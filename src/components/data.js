@@ -3,7 +3,7 @@ export default {
   experiences: [{
     experience: 'Side Projects',
     projects: [{
-      description: 'I\'m often playing with new technologies, whether it be poking around <a href="http://exercism.io/languages/elm">Elm tutorials</a>, making <a href="https://hyperdev.com/#!/project/gray-toe">Flexbox playgrounds</a>, or experimenting with <a href="http://codepen.io/bendman/pen/YWVpar">new async control methods</a>. I\'m also particularly interested in <a href="https://en.wikipedia.org/wiki/Scientific_modelling">scientific modelling</a> of <a href="https://en.wikipedia.org/wiki/Complex_system">complex systems</a>, whether that means <a href="http://modelingcommons.org/browse/one_model/5344#model_tabs_browse_info">building an Agent Based Model</a> or <a href="/Predator-Prey.html">a mathematical exploration of dynamical systems</a>',
+      description: 'I\'m often playing with new technologies, whether it be poking around <a href="http://exercism.io/languages/elm">Elm tutorials</a>, making <a href="https://hyperdev.com/#!/project/gray-toe">Flexbox playgrounds</a>, or experimenting with <a href="http://codepen.io/bendman/pen/YWVpar">new async control methods</a>. I\'m also particularly interested in <a href="https://en.wikipedia.org/wiki/Scientific_modelling">scientific modelling</a> of <a href="https://en.wikipedia.org/wiki/Complex_system">complex systems</a>, whether that means <a href="http://modelingcommons.org/browse/one_model/5344#model_tabs_browse_info">building an Agent Based Model</a> or <a href="http://www.cascadiaconcepts.com/Predator-Prey.html">a mathematical exploration of dynamical systems</a>.',
     }],
   }, {
     experience: 'Independent Contractor',
